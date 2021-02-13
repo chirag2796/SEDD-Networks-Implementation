@@ -6,6 +6,9 @@ This is the experimental implementation and validation done for the independent 
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg?style=plastic)](https://badge.fury.io/py/tensorflow)
 [![PyPI](https://badge.fury.io/py/tensorflow.svg)](https://badge.fury.io/py/tensorflow)
 [![Generic badge](https://img.shields.io/badge/tensorflow-1.14-orange.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/numpy-1.17.3-ff69b4)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/pandas-0.25-green)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/scikit_learn-0.21.3-yellow)](https://shields.io/)
 
 
 ## About the Research
@@ -19,6 +22,7 @@ This is the experimental implementation and validation done for the independent 
 ## Resources
 
 *   Research Paper. "[https://arxiv.org/abs/2001.03017](https://arxiv.org/abs/2001.03017)" (2019).
+*   Dataset: Microsoft Research. (2013). Dogs vs. Cats [25,000 images of dogs and cats]. https://www.kaggle.com/c/dogs-vs-cats
 
 
 ## Usage
@@ -54,26 +58,35 @@ This paper explores a new framework for lossy image encryption and decryption us
 
 ## Architecture and Algorithm
 * Image Vectorization
+<br><br>
 ![RNN Architecture](https://github.com/chirag2796/SEDD-Networks-Implementation/blob/master/sedd_model/arch_pictures/image_vectorization.JPG)
 
 <br>
+<br>
 
 * Encoder Architecture
+<br><br>
 ![Encoder Architecture](https://github.com/chirag2796/SEDD-Networks-Implementation/blob/master/sedd_model/arch_pictures/encoder.JPG)
 
 <br>
+<br>
 
 * Decoder Architecture
+<br><br>
 ![Decoder Architecture](https://github.com/chirag2796/SEDD-Networks-Implementation/blob/master/sedd_model/arch_pictures/decoder.JPG)
 
 <br>
+<br>
 
 * Training Error and Optimization
+<br><br>
 ![Training Error and Optimization](https://github.com/chirag2796/SEDD-Networks-Implementation/blob/master/sedd_model/arch_pictures/mse.JPG)
 
 <br>
+<br>
 
 * Results
+<br><br>
 ![Results](https://github.com/chirag2796/SEDD-Networks-Implementation/blob/master/sedd_model/arch_pictures/results.JPG)
 
 
